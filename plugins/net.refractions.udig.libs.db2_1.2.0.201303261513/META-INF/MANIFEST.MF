@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jody
+Build-Jdk: 1.6.0_33
+Require-Bundle: net.refractions.udig.libs,org.eclipse.ui
+Bundle-Vendor: udig.refractions.net
+Bundle-ClassPath: libs/db2jcc_license_cu.jar,libs/db2jcc.jar
+Eclipse-BundleShape: dir
+Bundle-Version: 1.2.0.201303261513
+Bundle-Name: DB2 Plug-in
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.refractions.udig.libs.db2
+Eclipse-RegisterBuddy: net.refractions.udig.libs
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
