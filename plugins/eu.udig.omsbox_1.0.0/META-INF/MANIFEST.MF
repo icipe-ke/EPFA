@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jody
+Build-Jdk: 1.6.0_33
+Export-Package: eu.udig.omsbox,eu.udig.omsbox.core,eu.udig.omsbox.proc
+ essingregion,eu.udig.omsbox.ui,eu.udig.omsbox.utils,eu.udig.omsbox.vi
+ ew,eu.udig.omsbox.view.actions,eu.udig.omsbox.view.widgets,i18n.omsbox
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,net.refraction
+ s.udig.libs;bundle-version="1.2.1",net.refractions.udig.project;bundl
+ e-version="1.2.1",net.refractions.udig.catalog,net.refractions.udig.c
+ atalog.rasterings;bundle-version="1.2.0",net.refractions.udig.catalog
+ .ui,net.refractions.udig.project.ui,net.refractions.udig.mapgraphic;b
+ undle-version="1.2.0",eu.udig.catalog.jgrass;bundle-version="1.0.0",o
+ rg.eclipse.ui.console;bundle-version="3.4.0"
+Bundle-Vendor: HydroloGIS S.r.l.
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 1.0.0
+Bundle-Name: Omsbox
+Bundle-Activator: eu.udig.omsbox.OmsBoxPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: eu.udig.omsbox;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
